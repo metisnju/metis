@@ -1,0 +1,15 @@
+#include "judge.h"
+using namespace std;
+judge oj;
+int main(int argc, char *argv[]){
+	/*
+	while (true);
+	freopen("hehe", "w", stderr);
+	cerr<<"hehe"<<endl;
+	freopen("fuck.txt", "w",  stderr);
+	*/
+	oj.init(argv[1]);
+	printf("SUCC\n");
+	fflush(stdout);
+	oj.run();
+}

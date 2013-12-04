@@ -1,0 +1,43 @@
+\documentclass[12pt,journal,letterpaper,compsoc]{IEEEtran}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{ams}
+\usepackage{amssymb}
+\usepackage{CJK,graphicx}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{ctex}
+
+\ifCLASSOPTIONcompsoc
+\else
+\fi
+\ifCLASSINFOpdf
+\else
+\fi
+\hyphenation{op-tical net-works semi-conduc-tor}
+\onecolumn
+\renewcommand{\baselinestretch}{1.2}
+\setcounter{topnumber}{1}
+
+\begin{document}
+\begin{CJK*}{GBK}{kai}
+\title{Hecatonchires manual}
+\author{Chenxi~Qiu
+\IEEEcompsocitemizethanks{
+\IEEEcompsocthanksitem Chenxi Qiu is with  the Department
+of Computer Science and Technology, Nanjing University, PR China.
+\IEEEcompsocthanksitem Email:qiucxnju@gmail.com
+}
+}
+\maketitle
+\IEEEpeerreviewmaketitle
+%--
+\tableofcontents
+\clearpage
+\input{introduction.txt}
+\clearpage
+\input{datastructure.txt}
+\clearpage
+\input{masternode.txt}
+\end{CJK*}
+\end{document}

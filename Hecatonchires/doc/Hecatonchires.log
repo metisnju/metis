@@ -1,0 +1,950 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.16)  16 MAY 2013 21:34
+entering extended mode
+**F:/program/workspace/Hecatonchires/doc/Hecatonchires.tex
+(F:/program/workspace/Hecatonchires/doc/Hecatonchires.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(F:\application\CTEX\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+-- Using IEEE Computer Society mode.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 366.
+
+(F:\application\CTEX\MiKTeX\tex\latex\psnfss\ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 12 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <22> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 724.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) (F:\application\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(F:\application\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(F:\application\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen117
+))
+(F:\application\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen118
+)
+(F:\application\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen119
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks16
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks17
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(F:\application\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(F:\program\workspace\Hecatonchires\doc\ams.sty
+Package: ams 1996/01/09
+
+Package `ams' <09 Jan 1996 13:53:56 BST>.
+Copyright (C) 1990,1995 Mike Piff, University of Sheffield, England
+(F:\application\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+Use option defs to define all the AMS symbol names
+) (F:\application\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(F:\application\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
+Package: CJK 2008/12/29 4.8.2
+
+(F:\application\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
+)
+(F:\application\CTEX\MiKTeX\tex\latex\cjk\CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box29
+)
+(F:\application\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(F:\application\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(F:\application\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(F:\application\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(F:\application\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(F:\application\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(F:\application\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(F:\application\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(F:\application\CTEX\MiKTeX\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(F:\application\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count104
+\c@ALC@line=\count105
+\c@ALC@rem=\count106
+\c@ALC@depth=\count107
+\ALC@tlm=\skip47
+\algorithmicindent=\skip48
+)
+(F:\application\CTEX\MiKTeX\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(F:\application\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks21
+\float@box=\box30
+\@float@everytoks=\toks22
+\@floatcapt=\box31
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count109
+)
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\ctex.sty
+Package: ctex 2011/03/11 v1.02c ctex macros package
+
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\opt\ctex-common-opts.def)
+(F:\application\CTEX\CTeX\tex\latex\ctex\cfg\ctexopts.cfg)
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\def\ctex-common.def
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\expl3.sty
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3names.sty
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2011/12/30 v3113 L3 Experimental namespace for primitives
+)
+(F:\application\CTEX\MiKTeX\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count110
+)
+Package: expl3 2012/02/26 v3471 L3 Experimental code bundle wrapper
+
+(F:\application\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(F:\application\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3basics.sty
+Package: l3basics 2012/02/26 v3460 L3 Experimental basic definitions
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3tl.sty
+Package: l3tl 2012/02/26 v3460 L3 Experimental token lists
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3seq.sty
+Package: l3seq 2012/01/09 v3158 L3 Experimental sequences and stacks
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3int.sty
+Package: l3int 2012/02/26 v3460 L3 Experimental integers
+\c_max_int=\count111
+\l_tmpa_int=\count112
+\l_tmpb_int=\count113
+\l_tmpc_int=\count114
+\g_tmpa_int=\count115
+\g_tmpb_int=\count116
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3prg.sty
+Package: l3prg 2012/02/26 v3464 L3 Experimental control structures
+\g_prg_map_int=\count117
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3clist.sty
+Package: l3clist 2012/02/26 v3460 L3 Experimental comma separated lists
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3token.sty
+Package: l3token 2012/02/26 v3460 L3 Experimental token manipulation
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3prop.sty
+Package: l3prop 2012/02/26 v3460 L3 Experimental property lists
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3msg.sty
+Package: l3msg 2012/02/26 v3470 L3 Experimental messages
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3file.sty
+Package: l3file 2012/02/26 v3464 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count118
+\l_iow_line_length_int=\count119
+\l_iow_target_length_int=\count120
+\l_iow_current_line_int=\count121
+\l_iow_current_word_int=\count122
+\l_iow_current_indentation_int=\count123
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3skip.sty
+Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen128
+\l_tmpb_dim=\dimen129
+\l_tmpc_dim=\dimen130
+\g_tmpa_dim=\dimen131
+\g_tmpb_dim=\dimen132
+\l_tmpa_skip=\skip49
+\l_tmpb_skip=\skip50
+\l_tmpc_skip=\skip51
+\g_tmpa_skip=\skip52
+\g_tmpb_skip=\skip53
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3keys.sty
+Package: l3keys 2011/12/22 v3086 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count124
+\l_keys_choice_int=\count125
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3fp.sty
+Package: l3fp 2012/02/06 v3315 L3 Experimental floating-point operations
+\c_one_million=\count126
+\c_one_hundred_million=\count127
+\c_five_hundred_million=\count128
+\c_one_thousand_million=\count129
+\c_fp_pi_by_four_decimal_int=\count130
+\c_fp_pi_by_four_extended_int=\count131
+\c_fp_pi_decimal_int=\count132
+\c_fp_pi_extended_int=\count133
+\c_fp_two_pi_decimal_int=\count134
+\c_fp_two_pi_extended_int=\count135
+\l_fp_count_int=\count136
+\l_fp_div_offset_int=\count137
+\l_fp_exp_integer_int=\count138
+\l_fp_exp_decimal_int=\count139
+\l_fp_exp_extended_int=\count140
+\l_fp_exp_exponent_int=\count141
+\l_fp_input_a_sign_int=\count142
+\l_fp_input_a_integer_int=\count143
+\l_fp_input_a_decimal_int=\count144
+\l_fp_input_a_exponent_int=\count145
+\l_fp_input_b_sign_int=\count146
+\l_fp_input_b_integer_int=\count147
+\l_fp_input_b_decimal_int=\count148
+\l_fp_input_b_exponent_int=\count149
+\l_fp_input_a_extended_int=\count150
+\l_fp_input_b_extended_int=\count151
+\l_fp_mul_a_i_int=\count152
+\l_fp_mul_a_ii_int=\count153
+\l_fp_mul_a_iii_int=\count154
+\l_fp_mul_a_iv_int=\count155
+\l_fp_mul_a_v_int=\count156
+\l_fp_mul_a_vi_int=\count157
+\l_fp_mul_b_i_int=\count158
+\l_fp_mul_b_ii_int=\count159
+\l_fp_mul_b_iii_int=\count160
+\l_fp_mul_b_iv_int=\count161
+\l_fp_mul_b_v_int=\count162
+\l_fp_mul_b_vi_int=\count163
+\l_fp_mul_output_int=\count164
+\l_fp_output_sign_int=\count165
+\l_fp_output_integer_int=\count166
+\l_fp_output_decimal_int=\count167
+\l_fp_output_exponent_int=\count168
+\l_fp_output_extended_int=\count169
+\l_fp_round_position_int=\count170
+\l_fp_round_target_int=\count171
+\l_fp_split_sign_int=\count172
+\l_fp_internal_int=\count173
+\l_fp_trig_octant_int=\count174
+\l_fp_trig_sign_int=\count175
+\l_fp_trig_decimal_int=\count176
+\l_fp_trig_extended_int=\count177
+\l_fp_internal_dim=\dimen133
+\l_fp_internal_skip=\skip54
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3box.sty
+Package: l3box 2012/02/18 v3432 L3 Experimental boxes
+\l_tmpb_box=\box32
+\l_box_top_dim=\dimen134
+\l_box_bottom_dim=\dimen135
+\l_box_left_dim=\dimen136
+\l_box_right_dim=\dimen137
+\l_box_top_new_dim=\dimen138
+\l_box_bottom_new_dim=\dimen139
+\l_box_left_new_dim=\dimen140
+\l_box_right_new_dim=\dimen141
+\l_box_internal_box=\box33
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3coffins.sty
+Package: l3coffins 2012/02/26 v3460 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box34
+\l_coffin_internal_dim=\dimen142
+\l_coffin_offset_x_dim=\dimen143
+\l_coffin_offset_y_dim=\dimen144
+\l_coffin_x_dim=\dimen145
+\l_coffin_y_dim=\dimen146
+\l_coffin_x_prime_dim=\dimen147
+\l_coffin_y_prime_dim=\dimen148
+\l_coffin_Depth_dim=\dimen149
+\l_coffin_Height_dim=\dimen150
+\l_coffin_TotalHeight_dim=\dimen151
+\l_coffin_Width_dim=\dimen152
+\c_empty_coffin=\box35
+\l_coffin_aligned_coffin=\box36
+\l_coffin_aligned_internal_coffin=\box37
+\l_coffin_bounding_shift_dim=\dimen153
+\l_coffin_left_corner_dim=\dimen154
+\l_coffin_right_corner_dim=\dimen155
+\l_coffin_bottom_corner_dim=\dimen156
+\l_coffin_top_corner_dim=\dimen157
+\l_coffin_scaled_total_height_dim=\dimen158
+\l_coffin_scaled_width_dim=\dimen159
+\l_coffin_display_coffin=\box38
+\l_coffin_display_coord_coffin=\box39
+\l_coffin_display_pole_coffin=\box40
+\l_coffin_display_offset_dim=\dimen160
+\l_coffin_display_x_dim=\dimen161
+\l_coffin_display_y_dim=\dimen162
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(F:\application\CTEX\MiKTeX\tex\latex\l3kernel\l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count178
+\g_cctab_stack_int=\count179
+))
+(F:\application\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count180
+)
+(F:\application\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(F:\application\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(F:\application\CTEX\MiKTeX\tex\latex\base\fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(F:\application\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-cjk-engine.def
+(F:\application\CTEX\CTeX\tex\latex\CJKpunct\CJKpunct.sty
+Package: CJKpunct 2010/02/21 4.8.2-2
+\CJKpunct@cnta=\count181
+\CJKpunct@cntb=\count182
+\CJKpunct@cntc=\count183
+\CJKpunct@cntd=\count184
+\CJKpunct@cnte=\count185
+
+(F:\application\CTEX\CTeX\tex\latex\CJKpunct\CJKpunct.spa))
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-cjk-common.def
+\ccwd=\dimen163
+)
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\fontset\ctex-cjk-winfonts.def
+(F:\application\CTEX\MiKTeX\tex\generic\zhmetrics\zhwinfonts.tex
+(F:\application\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package ifpdf Info: The package is already loaded, stopped on input line 64.
+){F:/application/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
+)))
+\CTEX@q=\count186
+\CTEX@r=\count187
+))
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\def\ctex-gbk.def)
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
+(F:\program\workspace\Hecatonchires\doc\Hecatonchires.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+(F:\application\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count188
+\scratchdimen=\dimen164
+\scratchbox=\box41
+\nofMPsegments=\count189
+\nofMParguments=\count190
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen165
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
+\everyMPtoPDFconversion=\toks25
+) (F:\application\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
+File: standard.bdg 2008/12/29 4.8.2
+)
+(F:\application\CTEX\MiKTeX\tex\latex\cjk\extended.enc
+File: extended.enc 2008/12/29 4.8.2
+)
+(F:\application\CTEX\MiKTeX\tex\latex\cjk\extended.chr
+File: extended.chr 2008/12/29 4.8.2
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+
+(F:\application\CTEX\MiKTeX\tex\latex\psnfss\ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+
+(F:\application\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+
+(F:\application\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+pzd on input line 32.
+
+(F:\application\CTEX\MiKTeX\tex\latex\psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+) [1
+
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14> not available
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 36.
+
+(F:\program\workspace\Hecatonchires\doc\Hecatonchires.toc
+LaTeX Font Info:    Try loading font information for C19+kai on input line 1.
+
+(F:\application\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd
+File: c19kai.fd 2009/09/23 4.8.2
+) [2
+
+])
+\tf@toc=\write3
+ [3]
+(F:\program\workspace\Hecatonchires\doc\introduction.txt
+LaTeX Font Info:    Try loading font information for C19+sf on input line 2.
+
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\fd\c19sf.fd
+File: c19sf.fd 2007/05/06 v0.8a ctex font definition file
+)
+
+LaTeX Font Warning: Font shape `C19/sf/bx/sc' undefined
+(Font)              using `C19/sf/bx/n' instead on input line 2.
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 4.
+Package CJKpunct Info: use punctuation spaces for family 'kai' with punctstyle 
+(quanjiao) on input line 5.
+<MasterNode.jpg, id=35, 519.9425pt x 300.12125pt>
+File: MasterNode.jpg Graphic file (type jpg)
+ <use MasterNode.jpg>
+Package pdftex.def Info: MasterNode.jpg used on input line 19.
+(pdftex.def)             Requested size: 341.43306pt x 197.0823pt.
+ [4
+
+ <F:/program/workspace/Hecatonchires/doc/MasterNode.jpg>]) [5]
+(F:\program\workspace\Hecatonchires\doc\datastructure.txt
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+[6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+) [8] (F:\program\workspace\Hecatonchires\doc\masternode.txt
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\C19/kai/m/n/12/39 M \C19/kai/m/n/12/45 ï\OT1/ppl/m/n/12 SlaveFactory|\C19/kai/
+m/n/12/25 !| \OT1/ppl/m/n/12 TaskFactory|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 
+MasterListener|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 TaskProducer|\C19/kai/m/n/
+12/25 !| \OT1/ppl/m/n/12 TaskDivider|\C19/kai/m/n/12/26 §| \C19/kai/m/n/12/37 ¿
+ \C19/kai/m/n/12/53 …
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\C19/kai/m/n/12/36 r\OT1/ppl/m/n/12 SlaveFactory\C19/kai/m/n/12/39 D \C19/kai/m
+/n/12/40 4 \C19/kai/m/n/12/42 ‰\OT1/ppl/m/n/12 MasterListener|\C19/kai/m/n/12/2
+5 !| \OT1/ppl/m/n/12 TaskProducer|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 TaskDiv
+ider\C19/kai/m/n/12/59 ‚ \C19/kai/m/n/12/38 §|\C19/kai/m/n/12/26 §| \C19/kai/m/
+n/12/36 r\OT1/ppl/m/n/12 TaskFactory\C19/kai/m/n/12/39 D
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\C19/kai/m/n/12/55 Ä \C19/kai/m/n/12/59 k\OT1/ppl/m/n/12 SocketFilter\C19/kai/m
+/n/12/44 ¬ \C19/kai/m/n/12/40 Ö \C19/kai/m/n/12/54 \OT1/ppl/m/n/12 Socket\C19/
+kai/m/n/12/60 & \C19/kai/m/n/12/59 E \C19/kai/m/n/12/64 ¥ \C19/kai/m/n/12/40 \
+OT1/ppl/m/n/12 type\C19/kai/m/n/12/48 a \C19/kai/m/n/12/60 .|\C19/kai/m/n/12/26
+ §| \C19/kai/m/n/12/54 X \C19/kai/m/n/12/43 J \C19/kai/m/n/12/41 u \C19/kai/m/n
+/12/59 y \C19/kai/m/n/12/55 ´\OT1/ppl/m/n/12 REGISTER|\C19/kai/m/n/12/26 §| \C1
+9/kai/bx/n/12/63 K \C19/kai/m/n/12/40 N
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+\C19/kai/m/n/12/62 ^\OT1/ppl/m/n/12 SlaveFactory\C19/kai/m/n/12/40 \OT1/ppl/m/
+n/12 register\C19/kai/m/n/12/43 ¼ \C19/kai/m/n/12/55 ê|\C19/kai/m/n/12/26 §| \C
+19/kai/m/n/12/61 ± \C19/kai/m/n/12/65 5 \C19/kai/m/n/12/37 þ \C19/kai/m/n/12/61
+ ˜ \C19/kai/m/n/12/42 ‡ \C19/kai/m/n/12/60 # \C19/kai/m/n/12/40 \OT1/ppl/m/n/1
+2 Slave|\C19/kai/m/n/12/25 "| \C19/kai/m/n/12/54 X \C19/kai/m/n/12/43 J \C19/ka
+i/m/n/12/55 ´\OT1/ppl/m/n/12 HEARTBEAT\C19/kai/bx/n/12/63 K \C19/kai/m/n/12/40 
+N
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 76--44
+
+ []
+
+[11] (F:\program\workspace\Hecatonchires\doc\Hecatonchires.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10588 strings out of 495354
+ 169958 string characters out of 3183187
+ 206435 words of memory out of 3000000
+ 13477 multiletter control sequences out of 15000+200000
+ 58812 words of font info for 163 fonts, out of 3000000 for 9000
+ 17 hyphenation exceptions out of 8191
+ 34i,7n,30p,864b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/s
+imyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows
+/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:
+/Windows/Fonts/simyou.ttf>{F:/application/CTEX/MiKTeX/fonts/enc/dvips/fontname/
+8r.enc}<C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fo
+nts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simyou.ttf><C:/Wi
+ndows/Fonts/simyou.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.tt
+f><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
+imkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows
+/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:
+/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai
+.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Font
+s/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wind
+ows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf>
+<C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
+kai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/F
+onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/W
+indows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.t
+tf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><F:/application/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><F:/application/CTEX/MiKTeX/
+fonts/type1/urw/helvetic/uhvb8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw
+/helvetic/uhvr8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvro
+8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><F:/appl
+ication/CTEX/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><F:/application/CTEX/Mi
+KTeX/fonts/type1/urw/palatino/uplri8a.pfb><F:/application/CTEX/MiKTeX/fonts/typ
+e1/urw/zapfding/uzdr.pfb>
+Output written on Hecatonchires.pdf (11 pages, 322530 bytes).
+PDF statistics:
+ 268 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
