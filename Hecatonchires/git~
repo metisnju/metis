@@ -1,0 +1,6 @@
+git clone git@github.com:metisnju/metis.git .
+git add Hecatonchires
+git add themis
+git commit -m '完成百手巨人，差数据库部分'
+git commit -m 'xxxx'
+git push

@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.16)  16 MAY 2013 21:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.16)  8 DEC 2013 11:49
 entering extended mode
-**F:/program/workspace/Hecatonchires/doc/Hecatonchires.tex
-(F:/program/workspace/Hecatonchires/doc/Hecatonchires.tex
+**C:/Users/CUCU/Desktop/æ–°å»ºæ–‡ä»¶å¤¹*(4)/Hecatonchires/doc/Hecatonchires.tex
+
+("C:/Users/CUCU/Desktop/æ–°å»ºæ–‡ä»¶å¤¹ (4)/Hecatonchires/doc/Hecatonchires.tex
+"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (F:\application\CTEX\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
@@ -146,7 +148,7 @@ LaTeX Info: Redefining \] on input line 2667.
 (F:\application\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(F:\program\workspace\Hecatonchires\doc\ams.sty
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\ams.sty"
 Package: ams 1996/01/09
 
 Package `ams' <09 Jan 1996 13:53:56 BST>.
@@ -478,7 +480,8 @@ Package ifpdf Info: The package is already loaded, stopped on input line 64.
 ))
 (F:\application\CTEX\MiKTeX\tex\latex\ctex\def\ctex-gbk.def)
 (F:\application\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
-(F:\program\workspace\Hecatonchires\doc\Hecatonchires.aux)
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\Hecatonchires.aux
+")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -557,8 +560,7 @@ LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
-(F:\application\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+ (F:\application\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count188
 \scratchdimen=\dimen164
@@ -580,48 +582,55 @@ File: extended.enc 2008/12/29 4.8.2
 (F:\application\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 31.
 
 (F:\application\CTEX\MiKTeX\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (F:\application\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (F:\application\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+pzd on input line 32.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 31.
 
 (F:\application\CTEX\MiKTeX\tex\latex\psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
-) [1
+)
+LaTeX Font Info:    Try loading font information for C19+rm on input line 31.
+
+(F:\application\CTEX\MiKTeX\tex\latex\ctex\fd\c19rm.fd
+File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
+)
+Package CJKpunct Info: punctuation spaces for family 'zhkai' do not exist. Use 
+family 'def' instead. on input line 31.
+ [1
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 36.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 35.
 
-(F:\program\workspace\Hecatonchires\doc\Hecatonchires.toc
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\Hecatonchires.toc
+"
 LaTeX Font Info:    Try loading font information for C19+kai on input line 1.
-
-(F:\application\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd
+ (F:\application\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd
 File: c19kai.fd 2009/09/23 4.8.2
 ) [2
 
 ])
 \tf@toc=\write3
  [3]
-(F:\program\workspace\Hecatonchires\doc\introduction.txt
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\introduction.txt"
 LaTeX Font Info:    Try loading font information for C19+sf on input line 2.
-
 (F:\application\CTEX\MiKTeX\tex\latex\ctex\fd\c19sf.fd
 File: c19sf.fd 2007/05/06 v0.8a ctex font definition file
 )
@@ -633,318 +642,309 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 4.
 Package CJKpunct Info: use punctuation spaces for family 'kai' with punctstyle 
 (quanjiao) on input line 5.
-<MasterNode.jpg, id=35, 519.9425pt x 300.12125pt>
+<slave.jpg, id=42, 1053.9375pt x 709.14937pt>
+File: slave.jpg Graphic file (type jpg)
+ <use slave.jpg>
+Package pdftex.def Info: slave.jpg used on input line 18.
+(pdftex.def)             Requested size: 341.43306pt x 229.735pt.
+
+<MasterNode.jpg, id=43, 519.9425pt x 300.12125pt>
 File: MasterNode.jpg Graphic file (type jpg)
  <use MasterNode.jpg>
-Package pdftex.def Info: MasterNode.jpg used on input line 19.
+Package pdftex.def Info: MasterNode.jpg used on input line 28.
 (pdftex.def)             Requested size: 341.43306pt x 197.0823pt.
  [4
 
- <F:/program/workspace/Hecatonchires/doc/MasterNode.jpg>]) [5]
-(F:\program\workspace\Hecatonchires\doc\datastructure.txt
+ <C:/Users/CUCU/Desktop/æ–°å»ºæ–‡ä»¶å¤¹ (4)/Hecatonchires/doc/slave.jpg>]) [5 <
+C:/Users/CUCU/Desktop/æ–°å»ºæ–‡ä»¶å¤¹ (4)/Hecatonchires/doc/MasterNode.jpg>]
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\socket.txt"
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 6.
+
+(F:\application\CTEX\MiKTeX\tex\latex\psnfss\omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+
+Underfull \hbox (badness 6300) in paragraph at lines 6--7
+\OT1/ppl/m/n/12 TYPE[]HEARTBEAT, TYPE[]GETFILE|\C19/kai/m/n/12/26 §| \OT1/ppl/m
+/n/12 TYPE[]SUBMIT, TYPE[]CLOSE\OMS/cmsy/m/n/12 g|\C19/kai/m/n/12/25 "||\C19/ka
+i/m/n/12/26 £|\C19/kai/m/n/12/46 ä \C19/kai/bx/n/12/57 N \C19/kai/m/n/12/55 ê \
+C19/kai/m/n/12/64 Š \C19/kai/m/n/12/40 ½ \C19/kai/m/n/12/61 Â
+ []
+
+) [6
+
+]
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\datastructure.txt
+"
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--14
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
-
- []
-
-[6
+[7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
-
- []
-
-[7]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
-
- []
-
-) [8] (F:\program\workspace\Hecatonchires\doc\masternode.txt
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[9]) [10]
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\masternode.txt"
+Underfull \hbox (badness 2042) in paragraph at lines 11--12
+[]\C19/kai/m/n/12/38 Ð \C19/kai/m/n/12/55 © \C19/kai/m/n/12/44 z\OT1/ppl/m/n/12
+ MasterNode|\C19/kai/m/n/12/26 §| \C19/kai/m/n/12/39 M \C19/kai/m/n/12/45 ï\OT1
+/ppl/m/n/12 SlaveFactory|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 TaskFactory\C19/
+kai/m/n/12/48 ü \C19/kai/m/n/12/42 ‡ \C19/kai/m/n/12/55 ê \C19/kai/m/n/12/46 â 
+( \C19/kai/m/n/12/43  Ú\OT1/ppl/m/n/12 MasterListener|\C19/kai/m/n/12/25 !|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
-\C19/kai/m/n/12/39 M \C19/kai/m/n/12/45 ï\OT1/ppl/m/n/12 SlaveFactory|\C19/kai/
-m/n/12/25 !| \OT1/ppl/m/n/12 TaskFactory|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 
-MasterListener|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 TaskProducer|\C19/kai/m/n/
-12/25 !| \OT1/ppl/m/n/12 TaskDivider|\C19/kai/m/n/12/26 §| \C19/kai/m/n/12/37 ¿
- \C19/kai/m/n/12/53 …
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
-\C19/kai/m/n/12/36 r\OT1/ppl/m/n/12 SlaveFactory\C19/kai/m/n/12/39 D \C19/kai/m
-/n/12/40 4 \C19/kai/m/n/12/42 ‰\OT1/ppl/m/n/12 MasterListener|\C19/kai/m/n/12/2
-5 !| \OT1/ppl/m/n/12 TaskProducer|\C19/kai/m/n/12/25 !| \OT1/ppl/m/n/12 TaskDiv
-ider\C19/kai/m/n/12/59 ‚ \C19/kai/m/n/12/38 §|\C19/kai/m/n/12/26 §| \C19/kai/m/
-n/12/36 r\OT1/ppl/m/n/12 TaskFactory\C19/kai/m/n/12/39 D
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+[11
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 52--53
+\C19/kai/m/n/12/60 # \C19/kai/m/n/12/40 \OT1/ppl/m/n/12 slave\C19/kai/m/n/12/4
+0 \OT1/ppl/m/n/12 master\C19/kai/m/n/12/65 5 \C19/kai/m/n/12/37 þ|\C19/kai/m/n
+/12/26 §| \C19/kai/m/n/12/40 N \C19/kai/m/n/12/62 ^\OT1/ppl/m/n/12 SlaveFactory
+\C19/kai/m/n/12/40 \OT1/ppl/m/n/12 register\C19/kai/m/n/12/43 ¼ \C19/kai/m/n/1
+2/55 ê|\C19/kai/m/n/12/26 §| \C19/kai/m/n/12/61 ± \C19/kai/m/n/12/65 5 \C19/kai
+/m/n/12/37 þ \C19/kai/m/n/12/61 ˜ \C19/kai/m/n/12/42 ‡ \C19/kai/m/n/12/60 # \C1
+9/kai/m/n/12/40 \OT1/ppl/m/n/12 Slave|\C19/kai/m/n/12/25 "| \C19/kai/m/n/12/54
+ X \C19/kai/m/n/12/43 J
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 92--44
+
+ []
+
+[13] ("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\slavenode.tx
+t"
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 2142) in paragraph at lines 25--26
+[]\C19/kai/m/n/12/55 Ä \C19/kai/m/n/12/59 k \C19/kai/m/n/12/40 N \C19/kai/m/n/1
+2/62 ^\OT1/ppl/m/n/12 Register\C19/kai/m/n/12/43 ¼ \C19/kai/m/n/12/55 ê \C19/ka
+i/m/n/12/59 •\OT1/ppl/m/n/12 master\C19/kai/m/n/12/65 5 \C19/kai/m/n/12/37 þ|\C
+19/kai/m/n/12/26 §| \C19/kai/m/n/12/54 X \C19/kai/m/n/12/43 J \C19/kai/m/n/12/6
+5 5 \C19/kai/m/n/12/37 þ \C19/kai/m/n/12/55 ” \C19/kai/m/n/12/36 }|\C19/kai/m/n
+/12/26 §| \C19/kai/bx/n/12/57 ò \C19/kai/m/n/12/38 Ñ|\C19/kai/m/n/12/26 §| \C19
+/kai/m/n/12/54 X \C19/kai/m/n/12/43 J \C19/kai/m/n/12/65 5 \C19/kai/m/n/12/37 þ
+ \C19/kai/m/n/12/38 ¤ \C19/kai/m/n/12/42 õ|\C19/kai/m/n/12/26 §| \C19/kai/m/n/1
+2/52 é
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-[9
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-\C19/kai/m/n/12/55 Ä \C19/kai/m/n/12/59 k\OT1/ppl/m/n/12 SocketFilter\C19/kai/m
-/n/12/44 ¬ \C19/kai/m/n/12/40 Ö \C19/kai/m/n/12/54 \OT1/ppl/m/n/12 Socket\C19/
-kai/m/n/12/60 & \C19/kai/m/n/12/59 E \C19/kai/m/n/12/64 ¥ \C19/kai/m/n/12/40 \
-OT1/ppl/m/n/12 type\C19/kai/m/n/12/48 a \C19/kai/m/n/12/60 .|\C19/kai/m/n/12/26
- §| \C19/kai/m/n/12/54 X \C19/kai/m/n/12/43 J \C19/kai/m/n/12/41 u \C19/kai/m/n
-/12/59 y \C19/kai/m/n/12/55 ´\OT1/ppl/m/n/12 REGISTER|\C19/kai/m/n/12/26 §| \C1
-9/kai/bx/n/12/63 K \C19/kai/m/n/12/40 N
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-\C19/kai/m/n/12/62 ^\OT1/ppl/m/n/12 SlaveFactory\C19/kai/m/n/12/40 \OT1/ppl/m/
-n/12 register\C19/kai/m/n/12/43 ¼ \C19/kai/m/n/12/55 ê|\C19/kai/m/n/12/26 §| \C
-19/kai/m/n/12/61 ± \C19/kai/m/n/12/65 5 \C19/kai/m/n/12/37 þ \C19/kai/m/n/12/61
- ˜ \C19/kai/m/n/12/42 ‡ \C19/kai/m/n/12/60 # \C19/kai/m/n/12/40 \OT1/ppl/m/n/1
-2 Slave|\C19/kai/m/n/12/25 "| \C19/kai/m/n/12/54 X \C19/kai/m/n/12/43 J \C19/ka
-i/m/n/12/55 ´\OT1/ppl/m/n/12 HEARTBEAT\C19/kai/bx/n/12/63 K \C19/kai/m/n/12/40 
-N
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 76--44
-
- []
-
-[11] (F:\program\workspace\Hecatonchires\doc\Hecatonchires.aux)
+) [15]
+("C:\Users\CUCU\Desktop\æ–°å»ºæ–‡ä»¶å¤¹ (4)\Hecatonchires\doc\Hecatonchires.aux
+")
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10588 strings out of 495354
- 169958 string characters out of 3183187
- 206435 words of memory out of 3000000
- 13477 multiletter control sequences out of 15000+200000
- 58812 words of font info for 163 fonts, out of 3000000 for 9000
+ 10891 strings out of 495354
+ 177867 string characters out of 3183187
+ 207443 words of memory out of 3000000
+ 13763 multiletter control sequences out of 15000+200000
+ 64464 words of font info for 182 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 34i,7n,30p,864b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,7n,30p,885b,728s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/s
 imyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows
 /Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:
-/Windows/Fonts/simyou.ttf>{F:/application/CTEX/MiKTeX/fonts/enc/dvips/fontname/
-8r.enc}<C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fo
-nts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simyou.ttf><C:/Wi
-ndows/Fonts/simyou.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.tt
+/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf>{F:/application/CTEX/MiK
+TeX/fonts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simyou.ttf><C:/Windows/Fo
+nts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Wi
+ndows/Fonts/simkai.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.tt
 f><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/s
 imkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows
-/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:
-/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai
-.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Font
-s/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wind
+/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simyou.ttf><C:
+/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou.ttf><C:/Windows/Fonts/simyou
+.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Font
+s/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Wind
 ows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf>
 <C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/sim
 kai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/F
 onts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/W
 indows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.t
-tf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><F:/application/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><F:/application/CTEX/MiKTeX/
-fonts/type1/urw/helvetic/uhvb8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw
-/helvetic/uhvr8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvro
-8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><F:/appl
-ication/CTEX/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><F:/application/CTEX/Mi
-KTeX/fonts/type1/urw/palatino/uplri8a.pfb><F:/application/CTEX/MiKTeX/fonts/typ
-e1/urw/zapfding/uzdr.pfb>
-Output written on Hecatonchires.pdf (11 pages, 322530 bytes).
+tf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/
+simkai.ttf><C:/Windows/Fonts/simkai.ttf><C:/Windows/Fonts/simkai.ttf><F:/applic
+ation/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/application/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/application/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><F:/application/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/helv
+etic/uhvb8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb
+><F:/application/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><F:/applicati
+on/CTEX/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><F:/application/CTEX/MiKTeX/
+fonts/type1/urw/palatino/uplr8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw
+/palatino/uplri8a.pfb><F:/application/CTEX/MiKTeX/fonts/type1/urw/zapfding/uzdr
+.pfb>
+Output written on Hecatonchires.pdf (15 pages, 466548 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
+ 306 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

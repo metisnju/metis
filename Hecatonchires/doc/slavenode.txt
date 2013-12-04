@@ -1,0 +1,81 @@
+%========================================================================
+\section{客户端运行的线程}
+%========================================================================
+\subsection{SlaveNode}
+\subsubsection{overview}
+SlaveNode类负责启动、管理、关闭客户端上的线程。
+
+\subsubsection{构造函数}
+MasterNode()
+
+初始化SlaveNode。
+
+\subsubsection{私有函数}
+boolean Register()
+
+向master注册，如果注册成功，返回true，否则，返回false。
+
+\subsubsection{公有函数}
+void SetStopFlag()
+
+把MasterNode的StopFlag设置为false并对其管理的所有的线程调用void SetStopFlag()。\\
+
+void run()
+
+首先调用Register函数向master注册，如果注册失败，退出，如果注册成功，启动HeartBeatSender和TaskListener两个线程。
+
+\subsection{HeartBeatSender}
+\subsubsection{overview}
+HeartBeatSender主要是用于不断向master发送心跳，使得master一直知道当前slave处于活动状态，当发现master拒绝slave的心跳时，关闭客户端。
+
+\subsubsection{构造函数}
+HeartBeatSender(SlaveNode s)
+
+传递管理其的SlaveNode，设置stopFlag为false。\\
+
+HeartBeat()
+
+这个函数是进行一次心跳，如果成功，返回true，否则返回false。首先，如果无法连接上socket，则返回false。如果master返回值不是“OK”则打印返回值到logger并且返回false。
+
+\subsubsection{公有函数}
+void SetStopFlag()
+
+把StopFlag设置为true，但自己永远不调用，只由SlaveNode线程调用。\\
+
+void run()
+
+不断进行心跳，如果HeartBeat函数调用返回false则关闭slave。
+
+\subsection{TaskListener}
+\subsubsection{overview}
+TaskListener是用于处理任务的线程，其工作原理是建立socket等待master发送任务，当接受到master的任务过后，补全处理任务所需要的文件，然后计算，上传结果和文件，所有任务结束后接着等待下一次任务。
+
+\subsubsection{构造函数}
+TaskListener(SlaveNode s)
+
+传递管理其的SlaveNode，设置stopFlag为false。\\
+
+\subsubsection{公有函数}
+void SetStopFlag()
+
+把stopFLag设置为true。\\
+
+boolean submit(String filename, String newname)
+
+上传sandbox文件中名为filename的文件，并告知master把这个文件保存并命名为newname，当出现错误的时候返回false，否则返回true。\\
+
+boolean cp(Sqtring orgname, String servername, String newname)
+
+把本地名为orgname的文件拷贝到sandbox中，并命名为newname。当本地丢失orgname的文件时，向master请求名为servername的文件并重新命名为orgname。否则，继续拷贝。当出现任何问题是，返回false，否则，返回true。\\
+
+boolean report(String dir)
+
+把sandbox中名为dir文件里面的评测结果报告给master，如果出错，返回false。
+
+boolean DoTask (ArralList<String> data, int insize, int outsize)
+
+这个函数的作用是处理一次任务，insize代表输入文件的个数，outsize代表输出文件的个数，data前insize个文件名是评测输入文件名，后outsize是处理后产生的文件名。注意前insize个文件的顺序可以打乱，但是outsize中的第一个必须是themis.out的输出文件，因为后面会对这个文件调用report函数函数运行时，首先，重新创建sandbox文件夹，准备好评测环境。接着调用cp函数把需要评测的文件拷贝到sandbox文件夹中。对sanbox调用make，接着把outsize个文件依次调用submit传输给master，最后调用report告知master评测完成。\\
+
+void run()
+
+首先TaskListener会注册一个ServerSocket用来等来master的任务。当收到任务后，调用DoTask处理任务，如果出现异常，关闭整个slavenode，否则，等待下一次任务。

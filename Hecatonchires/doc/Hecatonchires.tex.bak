@@ -24,20 +24,24 @@
 \title{Hecatonchires manual}
 \author{Chenxi~Qiu
 \IEEEcompsocitemizethanks{
-\IEEEcompsocthanksitem Chenxi Qiu is with  the Department
-of Computer Science and Technology, Nanjing University, PR China.
+\IEEEcompsocthanksitem 这篇文章主要用于说明Hecatonchires的工作原理。
 \IEEEcompsocthanksitem Email:qiucxnju@gmail.com
 }
 }
 \maketitle
 \IEEEpeerreviewmaketitle
+\clearpage
 %--
 \tableofcontents
 \clearpage
 \input{introduction.txt}
 \clearpage
+\input{socket.txt}
+\clearpage
 \input{datastructure.txt}
 \clearpage
 \input{masternode.txt}
+\clearpage
+\input{slavenode.txt}
 \end{CJK*}
 \end{document}

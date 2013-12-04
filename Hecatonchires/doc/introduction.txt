@@ -13,12 +13,21 @@ HeartBeatSender¸ºÔğÃ¿¸ôÒ»¶ÎÊ±¼ä£¬¸úMaster×öÒ»´ÎĞÄÌøÒÔÈ·ÈÏË«·½µÄĞÅÏ¢ÊÇ·ñÕıÈ·¡£Èç¹
 
 TaskListener»á¿ªÆôÒ»¸öServerSocket¼àÌıMaster·¢¸øËûµÄĞÅÏ¢£¬Ò»µ©½ÓÊÜÁËMasterµÄÈÎÎñ£¬TaskListener»áÂíÉÏ¿ªÊ¼½øĞĞ´¦Àí£¬Íê³ÉºóÉÏ´«½á¹û¸ø·şÎñÆ÷¡£ÕâÀïTaskListenerÊÇµ«Ïß³ÌµÄ£¬ËùÒÔËûÔÚ´¦ÀíÕâ¸öÈÎÎñµÄÊ±ºòÊÇÎŞ·¨¼àÌıµ½ÈÎºÎsocket£¬¶øÕâÒ²ÊÇ²»Ó¦¸Ã·¢ÉúµÄ¡£
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=12cm]{slave.jpg}
+\caption{slave×´Ì¬»ú}
+\label{fig:MasterNod}
+\end{figure} 
+
+ÈçÉÏÍ¼ËùÊ¾£¬slaveÊ×ÏÈ´¦ÓÚinit×´Ì¬£¬µ±slave³É¹¦µ÷ÓÃregisterºó£¬½øÈëwaiting×´Ì¬£¬µ±TaskListener½ÓÊÕµ½masterµÄÈÎÎñºó£¬½øÈëworking×´Ì¬¡£workingµÄÔ­ÀíÊÇ°ÑtaskĞèÒªµÄÎÄ¼ş·ÅÈëÒ»¸ö°²È«µÄÄ¿Â¼ÖĞ²¢µ÷ÓÃshellÖ¸Áîmake¡£Èç¹û·¢ÏÖslaveÈ±ÉÙÕâĞ©ÎÄ¼ş£¬»á½øÈëgetfile×´Ì¬£¬ÏòmasterÇëÇóÎÄ¼ş£¬µ±¸ÃÎÄ¼şÇëÇóµ½ºó£¬¼ÌĞøworking¡£µ±ÆÀ²â½áÊøºó£¬½øÈësubmit×´Ì¬ÏòmasterÉÏ´«ÎÄ¼ş¡£µ±ËùÓĞÎÄ¼şÉÏ´«ºó£¬report¸ømaster¸æËßmasterÕâ¸öÈÎÎñ´¦ÀíÍê³ÉÁË£¬È»ºó½øÈëwaiting×´Ì¬¡£
+
 \subsection{MasterNodeÔ­Àí}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=12cm]{MasterNode.jpg}
 \caption{MasterNode½á¹¹Í¼}
-\label{fig:MasterNod}
+\label{fig:MasterNode}
 \end{figure} 
 
 MasterNodeµÄÕûÌå½á¹¹ÈçÉÏÍ¼ËùÊ¾¡£ÆäÖĞ·½¿ò´ú±íÒ»ÀàÏß³Ì£¬Ô²È¦´ú±íÒ»¸öÊı¾İ½á¹¹£¬ÁâĞÎ´ú±íÊı¾İ¿â¡£
@@ -27,7 +36,7 @@ MasterNodeµÄÕûÌå½á¹¹ÈçÉÏÍ¼ËùÊ¾¡£ÆäÖĞ·½¿ò´ú±íÒ»ÀàÏß³Ì£¬Ô²È¦´ú±íÒ»¸öÊı¾İ½á¹¹£¬ÁâĞÎ
 
 MasterListenerÖ÷ÒªÊÇ¹ÜÀíÒ»¸öServerSocket£¬Õâ¸öServerSocket¹Ì¶¨¼àÌıÒ»¸ö½Ó¿Ú£¨½Ó¿ÚºÅÇë²ÎÕÕ¡°²ÎÊıÉèÖÃ¡±ÕÂ½Ú£©¡£µ±¼àÌıµ½Ò»¸öSocketÇëÇóºó£¬MasterListener½«´´½¨SocketFilterÏß³Ì£¬²¢½«Õâ¸ösocket½»¸øSocketFilterÏß³ÌÀ´´¦Àí¡£
 
-SocketFilterÖ÷ÒªÊÇ¸ù¾İSocketÖĞµÄĞÅÏ¢À´È·¶¨²»Í¬µÄÍ¨ĞÅÇëÇó£¬°üÀ¨×¢²áÇëÇó¡¢ĞÄÌøÈ·ÈÏ¡¢½á¹û½ÓÊÕ¡¢ÎÄ¼şÏÂÔØ4ÖÖ£¬ÆäÖĞ£¬×¢²áÇëÇó¡¢ĞÄÌøÈ·ÈÏ¡¢½á¹û½ÓÊÕÈıÖÖ¶¼ĞèÒªµ÷ÓÃSlaveFactoryµÄ½Ó¿Ú¶ø½á¹û½ÓÊÕĞèÒªµ÷ÓÃÊı¾İ¿â¡£
+SocketFilterÖ÷ÒªÊÇ¸ù¾İSocketÖĞµÄĞÅÏ¢À´È·¶¨²»Í¬µÄÍ¨ĞÅÇëÇó£¬°üÀ¨×¢²áÇëÇó¡¢ĞÄÌøÈ·ÈÏ¡¢ÎÄ¼ş½ÓÊÕ¡¢ÎÄ¼şÏÂÔØ¡¢½á¹ûÉÏ´«ÎåÖÖ£¬ÆäÖĞ£¬×¢²áÇëÇó¡¢ĞÄÌøÈ·ÈÏ¡¢½á¹ûÉÏ´«ÈıÖÖ¶¼ĞèÒªµ÷ÓÃSlaveFactoryµÄ½Ó¿Ú¶ø½á¹ûÉÏ´«ĞèÒªµ÷ÓÃÊı¾İ¿â¡£
 
 TaskProducerÖ÷ÒªÊÇÓÃÓÚ²úÉúÈÎÎñ²¢°ÑËü·ÅÈëTaskFactoryÖĞ¡£TaskProducer¹¤×÷Ê±Ê×ÏÈ»á²é¿´SlaveFtoryÖĞÊÇ·ñÓĞĞèÒª±»»ØÊÕµÄÈÎÎñ£¬Èç¹ûÓĞ£¬Ôò°ÑËûÃÇÈ«²¿»ØÊÕ£¬È»ºó²é¿´Êı¾İ¿â£¬¿´Êı¾İ¿âÖĞÊÇ·ñÓĞÈÎÎñĞèÒªÆÀ²â²¢ÇÒÖ®Ç°Ã»ÓĞ±»TaskProducerÕì²âµ½¡£È»ºó°ÑËûÃÇ²åÈëTaskFactoryÖĞ¡£
 

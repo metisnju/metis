@@ -1,0 +1,18 @@
+%========================================================================
+\section{通信协议}
+%========================================================================
+slave向master发起的通信包括：注册、心跳、文件请求、上传文件、评测结束五种。其中，除了注册是SlaveNode发送给SocketFilter的以外，其他都是TaskListener发送给SocketFilter的。master向slave发起的通信直接是分派任务，是TaskDivider发送给TaskListener的。
+
+slave发送给master的通信第一行包含一个type参数，其中type的取值为：\{TYPE\_REGISTER, TYPE\_HEARTBEAT, TYPE\_GETFILE， TYPE\_SUBMIT, TYPE\_CLOSE\}。（具体数值定义在Param中）
+
+当type为TYPE\_REGISTER时，说明当前slave是要进行注册，包内第二行和第三行分别是注册的用户名和密码。如果注册成功，返回"OK"，否则，返回"Error"。
+
+当type为TYPE\_HEARTBEAT时，说明slave要进行一次心跳。包只有一行也就是type信息，master会检查是否有对应ip的注册信息，如果成功heartbeat，返回"OK"，否则返回"Error"。
+
+当type为TYPE\_GETFILE时，slave要读取文件。第二行包含需要读取的文件名。master会返回整个文件。
+
+当type为TYPE\_SUBMIT时，slave向master上传文件。第二行是文件名。后面有若干行，每一行以0或者1结尾，1代表不是结尾，0代表是结尾。当发现某行最后为0时，表示传输完成，返回"OK"。
+
+当type为TYPE\_CLOSE时，说明评测结束，将调用report函数把结果存入数据库，并且把slave的状态从“工作中”切换到“等待中”。
+
+而分配任务的时候，包的第一行有两个数字a，b，分别代表输入文件个数和输出文件个数。接下来有$a+b$行，从2到$1+a$行，每行两个字符串，以空格分开，分别表示其真实目录位置和评测时重命名的名字。从$2+a$行到$1+a+b$行，每行有两个字符串，以空格分开，分别表示其在评测时的名字和其存放到master后的名字。其中，第$2+a$行必须是themis的输出文件。
