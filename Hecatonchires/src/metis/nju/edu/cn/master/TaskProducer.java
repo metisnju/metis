@@ -125,7 +125,7 @@ public class TaskProducer implements Runnable  {
 			tasks.add(t);
 		}*/
 		try{
-    	String query = "SELECT BID, tbattle.CID, tbattle.level, video_url," +
+    	String query = "SELECT BID, tbattle.CID, tbattle.level," +
     			" tprog1.url as url1, tprog1.UID as UID1," +
     			" tprog2.url as url2, tprog2.UID as UID2 " +
     			"FROM tbattle, tprog as tprog1, tprog as tprog2 " +
@@ -139,14 +139,14 @@ public class TaskProducer implements Runnable  {
     		String file2 = rs.getString("CID") + "/Makefile";
     		String file3 = rs.getString("CID") + "/" + rs.getString("UID1") + "/" + rs.getString("url1") + ".out";
     		String file4 = rs.getString("CID") + "/" + rs.getString("UID2") + "/" + rs.getString("url2") + ".out";
-    		String file5 = rs.getString("BID") + "/" + rs.getString("video_url");
+    		String file5 = rs.getString("BID") + "/" + "out.txt";
     		String data = "5 1\n" + 
     				file1 + " judge/program\n" +
     				file2 + " Makefile\n" + 
     				file3 + " ai0/program\n" + 
     				file4 + " ai1/program\n" + 
     				"themis.out themis.out\n" + 
-    				"output " + file5;
+    				"output " + file5 + "\n";
     		int id = rs.getInt("BID");
     		int level = rs.getInt("level");
     		System.out.println(data);

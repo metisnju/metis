@@ -169,7 +169,7 @@ public class SocketFilter implements Runnable {
 			String []s = data.split(" ");
 			Connection con = Param.getConnection();
 			String query = "UPDATE tbattle " +
-					"SET status=" + s[0] + ",judge_id=0,PID1_score=" + s[1] + ",PID2_score=" + s[2]  +
+					"SET status=" + s[0] + ",video_url='out.txt',judge_id=0,PID1_score=" + s[1] + ",PID2_score=" + s[2]  +
 					" WHERE BID=" + slaveInfo.taskInfo.id;
 			System.out.println(query);
 
@@ -181,6 +181,7 @@ public class SocketFilter implements Runnable {
 			st.close();
 			con.close();
 		}catch(Exception e){
+			logger.error("insert error");
 			return;
 		}
 	}
