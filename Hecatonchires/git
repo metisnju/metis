@@ -8,3 +8,11 @@ git add Hecatonchires
 git add lib
 git commit -m '加入lib，完成Hecatonchires的doc'
 git push
+
+
+git add themis
+git add Hecatonchires
+git add lib
+git commit -m '加入jdbc'
+git push
+
