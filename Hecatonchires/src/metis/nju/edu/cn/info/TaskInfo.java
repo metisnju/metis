@@ -26,7 +26,7 @@ public class TaskInfo implements Comparable {
 		// System.out.println(this.level + " " + b.level + " " + this.index +
 		// " " + b.index);
 		if (level != b.level)
-			return level - b.level;
+			return b.level - level;
 		return index - b.index;
 	}
 

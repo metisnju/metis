@@ -15,6 +15,8 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.SocketException;
+import java.sql.Connection;
+import java.sql.Statement;
 
 import metis.nju.edu.cn.info.Param;
 import metis.nju.edu.cn.info.SlaveFactory;
@@ -73,7 +75,7 @@ public class SocketFilter implements Runnable {
 					out.println("Error");
 			} else if (type == Param.TYPE_GETFILE) {// 请求文件
 				logger.debug(socket.getInetAddress() + "getfile");
-				File file = new File("./server/" + in.readLine());
+				File file = new File(Param.DIR_SERVER + in.readLine());
 				/*
 				 * PrintWriter out = new PrintWriter(socket.getOutputStream(),
 				 * true); if (file.exists()){ BufferedReader reader =new
@@ -117,7 +119,7 @@ public class SocketFilter implements Runnable {
 				}
 			} else if (type == Param.TYPE_SUBMIT) {
 				logger.debug(socket.getInetAddress() + "submit");
-				File file = new File("./submit/" + in.readLine());
+				File file = new File(Param.DIR_ANSWER + in.readLine());
 				File parent = file.getParentFile();
 				if ((parent != null) && !parent.exists())
 					parent.mkdirs();
@@ -136,7 +138,7 @@ public class SocketFilter implements Runnable {
 				socket.close();
 			}else if (type == Param.TYPE_CLOSE){//评测结束
 				logger.debug(socket.getInetAddress() + "close");
-				int state = Integer.parseInt(in.readLine());
+				String data = in.readLine();
 				String ip = socket.getInetAddress().toString();
 				PrintWriter out = new PrintWriter(socket.getOutputStream(),
 						true);
@@ -144,9 +146,9 @@ public class SocketFilter implements Runnable {
 				out.flush();
 				Thread.sleep(50);
 				socket.close();
-				System.out.println(state);
-				TaskInfo slaveInfo = slaveFactory.getTask(ip);
-				report(slaveInfo, state);
+				System.out.println(data);
+				SlaveInfo slaveInfo = slaveFactory.getSlaveByIp(ip);
+				report(slaveInfo, data);
 				slaveFactory.setUnwork(ip);
 				//待添加
 			}
@@ -160,9 +162,27 @@ public class SocketFilter implements Runnable {
 		}
 	}
 
-	private void report(TaskInfo slaveInfo, int state) {
+	private void report(SlaveInfo slaveInfo, String data) {
 		// TODO Auto-generated method stub
-		
+		//System.out.println(slaveInfo.taskInfo.id);
+		try{
+			String []s = data.split(" ");
+			Connection con = Param.getConnection();
+			String query = "UPDATE tbattle " +
+					"SET status=" + s[0] + ",judge_id=0,PID1_score=" + s[1] + ",PID2_score=" + s[2]  +
+					" WHERE BID=" + slaveInfo.taskInfo.id;
+			System.out.println(query);
+
+			Statement st = con.createStatement();
+			if (!st.execute(query)){
+				masterNode.SetStopFlag();
+				
+			}
+			st.close();
+			con.close();
+		}catch(Exception e){
+			return;
+		}
 	}
 
 }

@@ -18,7 +18,7 @@
 		<link>
 			<name>log4j</name>
 			<type>2</type>
-			<location>/home/cucu/workspace/lib/log4j</location>
+			<location>/home/metis/workspace/lib/log4j</location>
 		</link>
 	</linkedResources>
 </projectDescription>

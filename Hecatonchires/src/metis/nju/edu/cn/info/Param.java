@@ -1,6 +1,17 @@
 package metis.nju.edu.cn.info;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import metis.nju.edu.cn.master.MasterListener;
+
+import org.apache.log4j.Logger;
+
 public class Param {
+	static Logger logger = Logger.getLogger(Param.class);
+	public static String DIR_ANSWER = "/usr/local/apache/htdocs/replay/";
+	public static String DIR_SERVER = "/usr/local/apache/htdocs/upload/";
 	public static final int STATE_WAITING = 0;// 标示slave状态为等待
 	public static final int STATE_WORKING = 1;// 标示slave状态为工作
 	public static final int STATE_DISPATCHING = 2;// 标示slave的状态为调度中
@@ -22,4 +33,20 @@ public class Param {
 													// 单位为毫秒
 	public static int SLEEP_Task_PRODUCER = 1000;// Producer插入失败后等待时间 单位为毫秒
 	public static int SLEEP_Task_DIVIDER = 1000;// Divider获取失败后等待时间 单位为毫秒
+	public static String DB_DRIVER = "com.mysql.jdbc.Driver";
+	public static String DB_URL = "jdbc:mysql://localhost/db_ai";
+	public static String DB_USER = "root";
+	public static String DB_PASSWD = "metis";
+
+	public static Connection getConnection(){
+		try{
+			//Class.f
+			Class.forName(Param.DB_DRIVER);
+			Connection con = DriverManager.getConnection(Param.DB_URL, Param.DB_USER, Param.DB_PASSWD);        
+			return con;    
+		}catch (Exception e){
+			logger.error(e);
+			return null;
+		}
+	}
 }

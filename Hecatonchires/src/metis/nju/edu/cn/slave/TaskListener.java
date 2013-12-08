@@ -176,18 +176,22 @@ public class TaskListener implements Runnable {
 			try {
 				BufferedReader reader = new BufferedReader(new FileReader(file));
 				String s = "";
+				String data = "0 0";
 				while ((s = reader.readLine()) != null) {
 					if (s.startsWith("TIE"))
 						state = 4;
 					if (s.startsWith("WINNER")) {
-						state = Integer.parseInt(s.substring(7)) + 4;
+						state = Integer.parseInt(s.substring(7)) + 5;
+					}
+					if (s.startsWith("REPORT")){
+						data = s.substring(7);
 					}
 				}
 				Socket socket = new Socket(Param.SERVER_IP, Param.MASTERPORT);
 				PrintWriter out = new PrintWriter(socket.getOutputStream(),
 						true);
 				out.println(Param.TYPE_CLOSE);
-				out.println(state);
+				out.println(state + " " + data);
 				out.flush();
 				BufferedReader in = new BufferedReader(new InputStreamReader(
 						socket.getInputStream()));

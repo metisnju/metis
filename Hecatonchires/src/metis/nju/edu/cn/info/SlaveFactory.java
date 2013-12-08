@@ -63,6 +63,19 @@ public class SlaveFactory extends Object {
 			return false;
 		}
 	}
+	public synchronized SlaveInfo getSlaveByIp(String ip) {// 把ip对应的slave标示为工作中
+		SlaveInfo slaveInfo = slaveList.get(ip);
+		if (slaveInfo == null) {
+			logger.warn("为" + ip + "获取正在处理的工作，但是ip没有在Factory中");
+			return null;
+		}
+		if (slaveInfo.state != Param.STATE_WORKING) {
+			logger.warn("为" + ip + "获取正在处理的工作，但是ip并不是工作中");
+			remove(ip);
+			return null;
+		}
+		return slaveInfo;
+	}
 	//获取ip正在处理的task
 	public synchronized TaskInfo getTask(String ip) {// 把ip对应的slave标示为工作中
 		SlaveInfo slaveInfo = slaveList.get(ip);
