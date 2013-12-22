@@ -1,0 +1,31 @@
+[DEBUG] 2013-12-10 10:09:51,181(0) --> [main] metis.nju.edu.cn.master.MasterListener.<init>(MasterListener.java:32): 服务器端口绑定成功  
+[DEBUG] 2013-12-10 10:09:52,029(848) --> [SlaveNode] metis.nju.edu.cn.slave.SlaveNode.run(SlaveNode.java:69): slave请求socket  
+[DEBUG] 2013-12-10 10:09:52,030(849) --> [SlaveNode] metis.nju.edu.cn.slave.SlaveNode.Register(SlaveNode.java:41): slave请求socket  
+[DEBUG] 2013-12-10 10:09:52,031(850) --> [SlaveNode] metis.nju.edu.cn.slave.SlaveNode.Register(SlaveNode.java:43): slave请求socket成功  
+[DEBUG] 2013-12-10 10:09:52,031(850) --> [MasterListener] metis.nju.edu.cn.master.MasterListener.run(MasterListener.java:45): 服务器等待socket  
+[DEBUG] 2013-12-10 10:09:52,034(853) --> [taskDivider] metis.nju.edu.cn.master.TaskDivider.run(TaskDivider.java:52): 获取slave失败  
+[DEBUG] 2013-12-10 10:09:52,037(856) --> [MasterListener] metis.nju.edu.cn.master.MasterListener.run(MasterListener.java:45): 服务器等待socket  
+[DEBUG] 2013-12-10 10:09:52,039(858) --> [socketFilter] metis.nju.edu.cn.master.SocketFilter.run(SocketFilter.java:52): /127.0.0.1register  
+[DEBUG] 2013-12-10 10:09:52,039(858) --> [socketFilter] metis.nju.edu.cn.info.SlaveFactory.register(SlaveFactory.java:146): 新用户登录,ip:/127.0.0.1;id:gongbao;password:aaaaaa  
+[DEBUG] 2013-12-10 10:09:52,039(858) --> [socketFilter] metis.nju.edu.cn.info.SlaveFactory.register(SlaveFactory.java:160): 用户登录成功,ip:/127.0.0.1;id:gongbao;password:aaaaaa  
+[DEBUG] 2013-12-10 10:09:52,040(859) --> [socketFilter] metis.nju.edu.cn.info.SlaveFactory.insert(SlaveFactory.java:169): 开始插入ip:/127.0.0.1  
+[DEBUG] 2013-12-10 10:09:52,040(859) --> [socketFilter] metis.nju.edu.cn.info.SlaveFactory.insert(SlaveFactory.java:177): 结束插入ip:/127.0.0.1  
+[DEBUG] 2013-12-10 10:09:52,042(861) --> [HeartBeatSender] metis.nju.edu.cn.slave.HeartBeatSender.HeartBeat(HeartBeatSender.java:21): slave请求socket  
+[DEBUG] 2013-12-10 10:09:52,042(861) --> [HeartBeatSender] metis.nju.edu.cn.slave.HeartBeatSender.HeartBeat(HeartBeatSender.java:23): slave请求socket成功  
+[DEBUG] 2013-12-10 10:09:52,043(862) --> [TaskListener] metis.nju.edu.cn.slave.TaskListener.run(TaskListener.java:262): slave 端口绑定成功  
+[DEBUG] 2013-12-10 10:09:52,043(862) --> [MasterListener] metis.nju.edu.cn.master.MasterListener.run(MasterListener.java:45): 服务器等待socket  
+[DEBUG] 2013-12-10 10:09:52,043(862) --> [socketFilter] metis.nju.edu.cn.master.SocketFilter.run(SocketFilter.java:68): /127.0.0.1heartbeat  
+[DEBUG] 2013-12-10 10:09:52,043(862) --> [socketFilter] metis.nju.edu.cn.info.SlaveFactory.heartBeat(SlaveFactory.java:57): 有效 ip进行heartBeat:/127.0.0.1  
+[DEBUG] 2013-12-10 10:09:52,043(862) --> [HeartBeatSender] metis.nju.edu.cn.slave.HeartBeatSender.HeartBeat(HeartBeatSender.java:38): heartBeat成功  
+[DEBUG] 2013-12-10 10:09:52,044(863) --> [socketFilter] metis.nju.edu.cn.master.SocketFilter.run(SocketFilter.java:155): Master读取socket完成  
+[DEBUG] 2013-12-10 10:09:52,093(912) --> [socketFilter] metis.nju.edu.cn.master.SocketFilter.run(SocketFilter.java:155): Master读取socket完成  
+[DEBUG] 2013-12-10 10:09:53,036(1855) --> [taskDivider] metis.nju.edu.cn.info.SlaveFactory.getSlave(SlaveFactory.java:130): getSlave:/127.0.0.1  
+[DEBUG] 2013-12-10 10:09:53,036(1855) --> [taskDivider] metis.nju.edu.cn.info.SlaveFactory.getSlave(SlaveFactory.java:132): Slave未超时:/127.0.0.1  
+[DEBUG] 2013-12-10 10:09:53,037(1856) --> [taskDivider] metis.nju.edu.cn.info.TaskFactory.getTask(TaskFactory.java:60): taskFactory 为空，请求拒绝  
+[DEBUG] 2013-12-10 10:09:53,037(1856) --> [taskDivider] metis.nju.edu.cn.master.TaskDivider.run(TaskDivider.java:49): 获取task失败  
+[DEBUG] 2013-12-10 10:09:54,040(2859) --> [taskDivider] metis.nju.edu.cn.info.TaskFactory.getTask(TaskFactory.java:60): taskFactory 为空，请求拒绝  
+[DEBUG] 2013-12-10 10:09:54,040(2859) --> [taskDivider] metis.nju.edu.cn.master.TaskDivider.run(TaskDivider.java:49): 获取task失败  
+[DEBUG] 2013-12-10 10:09:55,042(3861) --> [taskDivider] metis.nju.edu.cn.info.TaskFactory.getTask(TaskFactory.java:60): taskFactory 为空，请求拒绝  
+[DEBUG] 2013-12-10 10:09:55,043(3862) --> [taskDivider] metis.nju.edu.cn.master.TaskDivider.run(TaskDivider.java:49): 获取task失败  
+[DEBUG] 2013-12-10 10:09:56,044(4863) --> [taskDivider] metis.nju.edu.cn.info.TaskFactory.getTask(TaskFactory.java:60): taskFactory 为空，请求拒绝  
+[DEBUG] 2013-12-10 10:09:56,044(4863) --> [taskDivider] metis.nju.edu.cn.master.TaskDivider.run(TaskDivider.java:49): 获取task失败  

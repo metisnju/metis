@@ -1,0 +1,92 @@
+%========================================================================
+\section{服务器运行的线程}
+%========================================================================
+\subsection{MasterNode}
+\subsubsection{overview}
+MasterNode类负责启动、管理、关闭服务器上的线程。
+
+\subsubsection{构造函数}
+MasterNode()
+
+初始化MasterNode，创建SlaveFactory、TaskFactory两个数据结构和MasterListener、TaskProducer、TaskDivider三个线程。
+
+\subsubsection{公有函数}
+void SetStopFlag()
+
+把MasterNode的StopFlag设置为false并对其管理的所有的线程调用void SetStopFlag()。\\
+
+void run()
+
+，运行MasterListener、TaskProducer、TaskDivider线程。\\
+
+\subsection{MasterListener}
+\subsubsection{overview}
+MasterListener用于监控指定的port（定义在Param中），每收到一个socket请求，就创建一个SocketFilter线程处理这个socket。所以当突然有大量socket请求时系统可能因为创建太多的线程而崩溃，所以现在的解决方法是让SocketFilter这个线程的生存周期尽量短。这是在后来的工作中需要被改进的。
+
+\subsubsection{构造函数}
+MasterListener(SlaveFactory s, MasterNode m)
+
+通过传递SlaveFactory和MasterNode来构造这个类，并且试图绑定ServerSocket，如果绑定失败，则调用MasterNode的SetStopFlag()函数。
+
+\subsubsection{公有函数}
+void SetStopFlag()
+
+把StopFlag设置为true。\\
+
+void run()
+
+循环忙等待socket请求，当收到一个socket请求后，创建SocketFilter线程来处理这个socket请求。如果这时返现StopFlag已经被设置为false了，则退出，否则继续忙等待。所以即使StopFlag被设置为false，这个线程也不会马上停止，只会在收到socket请求后才会停止。
+
+\subsection{SocketFilter}
+\subsubsection{overview}
+SocketFilter是用于处理socket请求的类，它现在采用的是block的通信机制，所以需要保证slave及时发送数据，任何通信一致性上的问题都可能导致这个线程死掉，所以这个线程处理是Master上最脆弱的一环。这时在后面的工作中需要优化的。
+
+\subsubsection{构造函数}
+SocketFilter(Socket s, SlaveFactory sf, MasterNode m)
+
+SocketFilter通过传递socket，SlaveFactory，MasterNode来初始化。\\
+
+\subsubsection{公有函数}
+void run()
+
+首先SocketFilter会读取Socket信息中的type类型，如果发现是REGISTER，说明一个新的slave到master注册，调用SlaveFactory的register函数，以注册一个新的Slave。如果是HEARTBEAT则调用slaveFactory的heartBeat函数更新这个ip的心跳信息，防止这个ip对应的slave因为过期被回收。如果是GETFILE说明slave缺少文件，读取文件本地文件发送过去。如果是SUBMIT，接收slave发送过来的文件并保存在指定位置。如果是CLOSE，说明一个slave评测完成，保存结果到数据库，这里需要调用report函数，这个还没有实现。
+
+\subsection{TaskProducer}
+\subsubsection{overview}
+TaskProducer的作用是向TaskFactory中插入TaskInfo。TaskProducer会优先回收处理失败并保存在SlaveFactory中的TaskInfo，如果回收过后TaskFactory仍然没满，则访问数据库，从数据库中提取任务。
+
+\subsubsection{构造函数}
+TaskProducer(MasterNode m, SlaveFactory s, TaskFactory t)
+
+TaskProducer通过传递TaskFactory，SlaveFactory，MasterNode来初始化。
+
+\subsubsection{公有函数}
+void GetTaskFromDB(Stack<TaskInfo> tasks, int need)
+
+从数据库中提取不多于need个任务，并保存在tasks中。在这里并没有实现。\\
+
+void run()
+
+循环运行，直到StopFlag被设置为true。每次循环会从SlaveFactory中回收TaskInfo，并把他们插入TaskFactory中，如果插入完成过后TaskFactory依然未满，则从数据库中提取任务加入TaskFactory中。每次循环结束后，sleep一段时间。
+
+\subsection{TaskDivider}
+\subsubsection{overview}
+TaskDivider是负责任务分发的。这里暂时保证只有一个TaskDivider。
+
+\subsubsection{构造函数}
+TaskDivider(MasterNode m, SlaveFactory s, TaskFactory t)
+
+TaskDivider通过传递TaskFactory，SlaveFactory，MasterNode来初始化。
+
+\subsubsection{公有函数}
+setStopFlag()
+
+将线程的停止标记设置为true。\\
+
+void SendTask(String ip, TaskInfo taskInfo)
+
+将任务的数据发给对应ip。\\
+
+void run()
+
+首先从SlaveFactory中提取一个空闲的ip，如果有，则再提取一个任务。如果ip和任务都提取成功，则SalveFactory里面把对应IP设置为工作中，初始化一个TaskSender线程发送。否则，说明SlaveFactory或者TaskFactory为空，则等待一段时间防止占用这两个数据结构的时间。\\

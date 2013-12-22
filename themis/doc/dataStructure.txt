@@ -1,0 +1,138 @@
+%========================================================================
+\section{数据结构}
+%========================================================================
+\subsection{SlaveInfo}
+\subsubsection{overview}
+SlaveInfo类用来存储每个slave的信息，其内容如下：
+
+String ip：标示这个slave的ip地址。
+
+String id：标示这个slave认证使用的用户名。
+
+int level：标示这个slave的优先等级，level越低将越先获取任务。
+
+int state：标示这个slave的状态，状态定义在Param中。
+
+long lastHeartBeat：标示这个slave的上一次心跳时间。
+
+int index：标示这个slave加入等待序列的顺序号，当level相同时，index越低将越先获取任务。\\
+TaskInfo taskInfo：保存这个slave正在处理的任务的信息。
+
+
+\subsubsection{构造函数}
+SlaveInfo(String Ip, String Id, String Password, int Level, int Index)
+
+state被初始化为Param.STATE\_WAITING
+
+taskInfo被初始化为null
+
+lastHeartBeat使用SlaveInfo.getTime()得到。
+
+\subsubsection{公有函数}
+long getTime()
+
+获取当前时间\\
+
+boolean isTimeOut()
+
+返回是否超时\\
+
+
+
+
+
+
+\subsection{SlaveFactory}
+\subsubsection{overview}
+SlaveFactory类用来储存并管理所有slave的信息。
+
+\subsubsection{构造函数}
+SlaveFactory()
+
+产生一个新的SlaveFactory\\
+
+\subsubsection{公有函数}
+boolean heartBeat(String ip)
+
+ip标示的Slave进行了一次心跳，若这个slave存在在这个SlaveFactory中则更新这个slave的上一次心跳的时间并返回true，反之返回false。\\
+
+TaskInfo getTask(String ip)
+
+返回ip标示的slave正在处理的任务信息，不存在slave或者这个slave没有在工作，返回null。\\
+
+boolean setUnwork(String ip)
+
+把ip标示的slave的状态设置为“等待中”，清空其正在处理的TaskInfo信息然后把它让入等待队列中。如果不存在slave或者其状态不是“工作中”，则返回false，否则返回true。\\
+
+boolean setWork(String ip, TaskInfo taskInfo)
+
+把ip对应的slave的状态设置为工作中，若这个slave不在则直接返回false，如果这个slave的状态不是“调度中”，则将把这个slave删除并返回false。如果正常，则把slave设置为工作中并把这个taskInfo存在这个slave对应的SlaveInfo中并返回true。\\
+
+String getSlave()
+
+返回一个有效的slave对应的ip。该函数首先把所有等待中的slave按照<level,index>（参照SlaveInfo的定义）的顺序排序，并从小到大检查所有的slave如果发现最小的slave出现超时的情况，则将删除这个slave的信息并检查下一个。当找到一个满足条件地slave后，把它的状态设置为“调度中”，把它从等待队列中删除，返回ip。如果不存在这样的slave则返回null。\\
+
+boolean register(String ip, String id, String password)
+
+向SlaveFactory中注册一个slave。参数分别为其ip，认证id，认证密码。这时将检查数据库，如果这个id和密码不匹配，返回false。否则如果这个ip之前注册过，则先调用remove(ip)删除这个ip对应的slave信息。接着把这个slave新的信息插入SlaveFactory中。\\
+
+void recycle(Stack<TaskInfo> tasks)
+
+回收所有处理失败的TaskInfo并存储在tasks中。\\
+
+\subsubsection{私有函数}
+
+int getLevel(String id, String password)
+
+获取id对应的账户的用户等级，如果账号密码匹配失败则返回-1。\\
+
+void insert(String ip, SlaveInfo slaveInfo)
+
+向数据结构中插入这个SlaveInfo的信息，这里并不会检查SlaveInfo的正确性，所以插入前请保证这个SlaveInfo的state为“等待中”。若数据结构中已经存在ip则直接退出。\\
+
+void remove(String ip)
+
+从数据结构中删除ip对应的slave的信息。	如果ip不存在则直接退出。如果这个ip正在工作，则把这个ip正在处理的任务存放在回收站中；如果这二个ip正在等待，则从等待队列中删除。\\
+
+\subsection{TaskInfo}
+\subsubsection{overview}
+TaskInfo保存评测需要的信息：
+
+String data：存储这个任务所需要传输给slave的数据。
+
+int level：存储这个任务的评测等级。
+
+int index：存储这个任务加入等待序列的时间。
+
+
+TaskInfo是有序的，首先按照level排序，如果level相同则按index排序，所以必须至少保证index是单调递增的，如果index重复可能导致TaskInfo从TaskFactory中丢失。
+
+\subsubsection{构造函数}
+TaskInfo(int Level, int Index, String Data)\\
+
+\subsection{TaskFactory}
+\subsubsection{overview}
+TaskFactory保存所有的TaskInfo，并把他们按照一颗树来组织。必须保证TaskInfo是两两不同的。并且这个TaskFactory的大小是有限制的，具体限制定义在Param中。
+
+\subsubsection{构造函数}
+TaskFactory()
+
+清空整个数据结构，并把index设置为0，并用这个单调增加的数来构造TaskInfo的序。因为index的序是有限的，只能所以如果index自由增大到一定量，服务器必须重启，但是可以保证的是如果服务器客户端正常，index是不会达到上限的。\\
+
+\subsubsection{公有函数}
+int getSize()
+
+返回TaskFactory中有多少任务在排队。\\
+
+int getNeedSize()
+
+返回TaskFactory中还可以插入多少任务。\\
+
+boolean  insert(TaskInfo taskInfo)
+
+像TaskFactory中插入一个TaskInfo，如果TaskFactory已经满了，则返回false并停止向队列中加入这个任务，反之则把任务加入等待序列并返回true。注意这个TaskInfo的index将会被重新设置。\\
+
+TaskInfo getTask()
+
+函数返回一个正在排队中任务，并将其从等待队列中删除。如果等待队列为空，则返回null，否则返回队列中第一个任务。\\
+

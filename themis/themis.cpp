@@ -6,12 +6,12 @@ email:qiucxnju@gmail.com
 using namespace std;
 process judge, player[MAXPER];
 int pl_num = MAXPER;/*记录玩家数*/
-int judge_time = DEFUTE_TIME;/*judge的时间限制*/
-int player_time = DEFUTE_TIME;/*玩家的时间限制*/
-int judge_vm = DEFUTE_VM;/*judge的内存限制*/
-int player_vm = DEFUTE_VM;/*晚间的内存限制*/
+int judge_time = DEFAULT_TIME;/*judge的时间限制*/
+int player_time = DEFAULT_TIME;/*玩家的时间限制*/
+int judge_vm = DEFAULT_VM;/*judge的内存限制*/
+int player_vm = DEFAULT_VM;/*晚间的内存限制*/
 char buf[MAXBUF + 100];/*数据缓冲*/
-FILE *f;/*文件指针，用于DORA自己DEBUG*/
+FILE *f;/*文件指针，用于THEMIS自己DEBUG*/
 
 void my_exit(bool error,int errnum){
 	/*关闭所有的子进程*/
@@ -37,6 +37,10 @@ int main(int argc, char *argv[]){
 			sscanf(argv[i] + 11, "%d", &judge_time);
 		if (strncmp(argv[i], "player_time=", 12) == 0)
 			sscanf(argv[i] + 12, "%d", &player_time);
+		if (strncmp(argv[i], "judge_vm=", 9) == 0)
+			sscanf(argv[i] + 11, "%d", &judge_vm);
+		if (strncmp(argv[i], "player_vm=", 10) == 0)
+			sscanf(argv[i] + 12, "%d", &player_vm);
 	}
 
 	/*创建所有用于评测的进程*/

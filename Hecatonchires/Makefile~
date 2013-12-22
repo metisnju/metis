@@ -1,0 +1,6 @@
+者:ai00
+#email:qiucxnju@gmail.com
+clean: 
+	rm -f -R bin
+	rm -f -R client
+	rm -f -R sandbox

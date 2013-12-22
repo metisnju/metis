@@ -1,0 +1,13 @@
+CC = g++
+CFLAGS = -static -I ./include
+OBJS = include/printer.o \
+	include/othello.o \
+	main.o \
+	judge.o
+program: $(OBJS)
+	$(CC) $(CFLAGS) -o program $(OBJS)
+-include *.d
+clean: 
+	rm -f $(OBJS)
+	rm -f program
+

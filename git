@@ -1,0 +1,18 @@
+git clone git@github.com:metisnju/metis.git .
+git add Hecatonchires
+git add themis
+git commit -m '完成百手巨人，差数据库部分'
+git push
+
+git add Hecatonchires
+git add lib
+git commit -m '加入lib，完成Hecatonchires的doc'
+git push
+
+
+git add themis
+git add Hecatonchires
+git add lib
+git commit -m '加入jdbc'
+git push
+

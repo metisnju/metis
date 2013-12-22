@@ -3,28 +3,17 @@
 CC = g++
 CFLAGS = -static -I ./include
 OBJS = process.o \
-	themis.o
+	themis.o 
+RM = process.o \
+	themis.o \
+	doc/Hecatonchires.aux \
+	doc/Hecatonchires.log \
+	doc/Hecatonchires.synctex.gz \
+	doc/Hecatonchires.toc \
+	themis.out
 program: $(OBJS)
-	$(CC) $(CFLAGS) -o themis $(OBJS) 
-	make clean
+	$(CC) $(CFLAGS) -o themis.out $(OBJS) 
+
 -include *.d
-other:
-	make -C judge clean
-	make -C judge program
-	make -C ai0 clean
-	make -C ai0 program
-	make -C ai1 clean
-	make -C ai1 program
 clean: 
-	rm -f $(OBJS)
-cleanall:
-	make clean
-	rm -f themis
-run:
-	sudo ./themis player_num=2 
-all:
-	make other
-	make
-crun:
-	make all
-	make run
+	rm -f $(RM)
