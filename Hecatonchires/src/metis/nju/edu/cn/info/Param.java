@@ -2,9 +2,6 @@ package metis.nju.edu.cn.info;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
-
-import metis.nju.edu.cn.master.MasterListener;
 
 import org.apache.log4j.Logger;
 

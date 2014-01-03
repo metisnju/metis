@@ -62,7 +62,7 @@ void judge::judge_com(int turn){
 }
 
 void judge::judge_exit(int id){
-	p.debug("WINNER %d\n", id);
+	p.debug("WINNERR %d\n", id);
 	p.debug("EXIT\n");
 	p.end();
 }

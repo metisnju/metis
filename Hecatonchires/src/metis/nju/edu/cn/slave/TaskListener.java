@@ -172,6 +172,8 @@ public class TaskListener implements Runnable {
 
 		int state = 3;
 		File file = new File("./sandbox/" + dir);
+		//System.out.println(file.getAbsolutePath());
+		//System.out.println(file.exists());
 		if (file.exists()) {
 			try {
 				BufferedReader reader = new BufferedReader(new FileReader(file));
@@ -187,6 +189,7 @@ public class TaskListener implements Runnable {
 						data = s.substring(7);
 					}
 				}
+				//System.out.println(data);
 				Socket socket = new Socket(Param.SERVER_IP, Param.MASTERPORT);
 				PrintWriter out = new PrintWriter(socket.getOutputStream(),
 						true);
@@ -199,6 +202,7 @@ public class TaskListener implements Runnable {
 				socket.close();
 				reader.close();
 			} catch (Exception e) {
+				logger.error(e.getMessage());
 				state = 3;
 				logger.error("获取结果失败 " + file);
 				return false;

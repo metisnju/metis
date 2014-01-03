@@ -4,3 +4,5 @@ clean:
 	rm -f -R bin
 	rm -f -R client
 	rm -f -R sandbox
+runms:
+	java -jar ./Hecatonchires/masterslave.jar

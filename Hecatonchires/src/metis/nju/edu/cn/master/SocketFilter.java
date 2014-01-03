@@ -165,6 +165,7 @@ public class SocketFilter implements Runnable {
 	private void report(SlaveInfo slaveInfo, String data) {
 		// TODO Auto-generated method stub
 		//System.out.println(slaveInfo.taskInfo.id);
+		logger.debug("report: " + data);
 		try{
 			String []s = data.split(" ");
 			Connection con = Param.getConnection();
