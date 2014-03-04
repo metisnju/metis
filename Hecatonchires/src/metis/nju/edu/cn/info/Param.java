@@ -22,7 +22,7 @@ public class Param {
 	public static int TIMEOUT_SLAVE_HEART = 5;// 标示salve进行一次心跳的时间 单位为秒
 	public static String CLINENT_ID = "gongbao";// 标示client的账户
 	public static String CLINENT_PASSWORD = "aaaaaa";// 标示client的密码
-	public static String SERVER_IP = "172.25.46.131";//"localhost";// server的IP地址
+	public static String SERVER_IP = "172.25.46.131";//"localhost";// server的IP地址    
 	public static int MASTERPORT = 8123; // master用的端口
 	public static int SLAVEPORT = 8122;// slave用的端口
 	public static int TASK_LIMIT = 5;// 标示task的数量限制

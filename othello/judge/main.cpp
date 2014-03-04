@@ -1,4 +1,4 @@
-#include "judge.h"
+#include "include/judge.h"
 using namespace std;
 judge oj;
 int main(int argc, char *argv[]){

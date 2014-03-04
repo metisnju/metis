@@ -20,5 +20,4 @@ class printer{
 	int com(int turn);
 	int init(int turn);
 };
-void debug(const char *format, ...);
 #endif

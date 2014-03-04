@@ -2,9 +2,6 @@
 printer::printer(){
 	data = buf + 5;
 }
-void debug(const char *format, ...){
-	fprintf(stderr, format, ...);
-}
 void printer::debug(const char *format, ...){
 	printf("DEBU ");
 	va_list ap;

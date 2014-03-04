@@ -20,5 +20,7 @@ class printer{
 	int com(int turn);
 	int init(int turn);
 };
-void debug(const char *format, ...);
+#define ai_debug(format,args...) \ 
+fprintf(stderr, format, ##args) 
+//void debug(const char *format, ...);
 #endif

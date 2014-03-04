@@ -17,7 +17,8 @@ class printer{
 	void debug(const char *format, ...);
 	void end();
 	int init(int turn, char *out);
-	int com(int turn, char *out);
-	int init(int turn, char *out);
+	int com(int turn);
+	int init(int turn);
 };
+void debug(const char *format, ...);
 #endif

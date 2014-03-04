@@ -140,13 +140,19 @@ public class TaskProducer implements Runnable  {
     		String file3 = rs.getString("CID") + "/" + rs.getString("UID1") + "/" + rs.getString("url1") + ".out";
     		String file4 = rs.getString("CID") + "/" + rs.getString("UID2") + "/" + rs.getString("url2") + ".out";
     		String file5 = rs.getString("BID") + "/" + "out.txt";
-    		String data = "5 1\n" + 
+    		String file6 = rs.getString("BID") + "/" + "ai0.txt";
+    		String file7 = rs.getString("BID") + "/" + "ai1.txt";
+    		String file8 = rs.getString("BID") + "/" + "judge.txt";
+    		String data = "5 4\n" + 
     				file1 + " judge/program\n" +
     				file2 + " Makefile\n" + 
     				file3 + " ai0/program\n" + 
     				file4 + " ai1/program\n" + 
     				"themis.out themis.out\n" + 
-    				"output " + file5 + "\n";
+    				"output " + file5 + "\n" + 
+    				"ai0/debug.txt " + file6 + "\n" +
+    	    		"ai1/debug.txt " + file7 + "\n" +
+    	    	    "judge/debug.txt " + file8 + "\n";
     		int id = rs.getInt("BID");
     		int level = rs.getInt("level");
     		System.out.println(data);

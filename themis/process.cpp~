@@ -194,7 +194,7 @@ bool process::create(){
 		/*更改工作目录和根目录*/
 		chdir(dir.c_str());
 		chroot(dir.c_str());
-		freopen("debug.txt", "a", stderr);
+		freopen("debug.txt", "w", stderr);
 		/*等待初始化*/
 		char buf[100];
 		scanf("%s", buf);
