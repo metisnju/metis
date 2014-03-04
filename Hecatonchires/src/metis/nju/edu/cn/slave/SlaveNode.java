@@ -39,7 +39,7 @@ public class SlaveNode implements Runnable {
 		Socket socket;
 		try {
 			logger.debug("slave请求socket");
-			socket = new Socket("localhost", Param.MASTERPORT);
+			socket = new Socket(Param.SERVER_IP, Param.MASTERPORT);
 			logger.debug("slave请求socket成功");
 		} catch (Exception e) {
 			logger.error("slave请求socket失败");
